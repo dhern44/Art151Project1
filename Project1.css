@@ -1,0 +1,77 @@
+
+body{
+	background-color:#6ed484;
+}
+
+.p1{
+	font-size:50px;
+	font-family:fantasy;
+	color:white;
+	position:absolute;
+	top:10px;
+	left:10px;
+	display: inline-block;
+	animation:wave .5s infinite alternate ease-in-out;
+}
+
+.p2{
+	font-size:50px;
+	font-family:fantasy;
+	color:white;
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	display: inline-block;
+	animation:wave 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes wave {
+	0% { transform: skew(20deg) }
+	100% { transform: skew(-20deg) }
+}
+
+
+
+
+.main-button{
+	Background-color:#fff700;
+	font-family:fantasy;
+	color:black;
+	padding:50px 50px;
+	margin:200px;
+	cursor:pointer;
+	transform:background-color 0.0s;
+}
+
+.main-button:hover {
+	background-color:green;
+	color:Yellow;
+	font-size:25px;
+	}
+
+
+.second-button{
+	Background-color:black;
+	font-family:sans-serif;
+	color:white;
+	padding:50px 50px;
+	margin:450px;
+	cursor:pointer;
+	transition:background-color 0.0s;
+}
+
+.second-button:hover {
+	background-color:red;
+	color:black;
+	font-size:10px;
+	}
+
+.circle1{
+	width:100px;
+	height:100px;
+	background-image:;
+}
+
+
+
+

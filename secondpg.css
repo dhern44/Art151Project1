@@ -1,0 +1,103 @@
+body{
+	background-color:#407a4c;
+}
+.p1{
+	font-size:30px;
+	font-family:sans-serif;
+	color:white;
+	position:absolute;
+	top:10px;
+	left:10px; 
+	filter:blur(5px);
+	transition:filter 0.5s ease-in-out;
+}
+
+.p1:hover {
+	filter:blur(0);
+}
+
+
+.p2{
+	font-size:35px;
+	font-family:sans-serif;
+	color:white;
+	position:absolute;
+	top:410px;
+	left:10px; 
+	filter:blur(4px);
+	transition:filter 0.5s ease-in-out;
+}
+
+.p2:hover {
+	filter:blur(0);
+}
+
+.p3{
+	font-size:40px;
+	font-family:sans-serif;
+	color:white;
+	position:absolute;
+	top:700px;
+	left:80%; 
+	filter:blur(3px);
+	transition:filter 0.5s ease-in-out;
+}
+
+.p3:hover {
+	filter:blur(0);
+}
+
+
+.Cherry{
+	Width:200px;
+	Height:200px;
+	margin-left:80%;
+	margin-top:900px;
+	transition:filter 0.5s ease-in-out;
+}
+
+
+/*
+.Backbutton{
+	font-size:30px;
+	font-family:fantasy;
+	color:yellow;
+	background-color:green;
+}
+*/
+.p4{
+	font-size:25px;
+	font-family:sans-serif;
+	position:absolute;
+	color:white;
+	top:1200px;
+	left:10px;
+}
+
+
+.p5{
+	font-size:25px;
+	font-family:sans-serif;
+	position:absolute;
+	color:white;
+	top:1400px;
+	left:10px;
+}
+.thirdbutton {
+	Background-color:black;
+	font-family:fantasy;
+	color:white;
+	padding:30px 40px;
+	margin-top:500px;
+	margin-left:10px;
+	cursor:pointer;
+	transform:background-color 0.0s;
+}
+.thirdbutton:hover {
+	background-color:red;
+	color:Yellow;
+	}
+
+
+
+
